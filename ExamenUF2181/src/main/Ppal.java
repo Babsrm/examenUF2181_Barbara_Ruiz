@@ -2,8 +2,6 @@ package main;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 import libs.Funciones;
 
 public class Ppal {
@@ -29,6 +27,7 @@ public class Ppal {
 		}catch(NumberFormatException e) {
 			e.printStackTrace();
 		}
+		teclado.close();
 	}
 
 }
