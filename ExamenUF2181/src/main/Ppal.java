@@ -24,7 +24,7 @@ public class Ppal {
 			System.out.println("Introduce otro:");
 			int num3 = teclado.nextInt();
 			
-			System.out.println("El número qu está en medio es "
+			System.out.println("El número que está en medio es "
 			                  +f.devuelveCentral(num1,num2,num3));
 		}catch(NumberFormatException e) {
 			e.printStackTrace();
